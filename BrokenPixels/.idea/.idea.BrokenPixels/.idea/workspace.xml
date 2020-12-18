@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35aa90f5-85c1-4985-acee-5c9c4fe27d59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prototypes/Feedback Visivo del suono.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prototypes/Multiplayer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/SimpleCubeScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/SimpleCubeScript.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +34,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/a8/a69d2f95/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/a9/083dfb87/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/bb/acda1c7d/IntPtr.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/eb/465430b6/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/a2/8b2d4dd2/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/11/adc2a8b7/Debug.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/9f/f116b04e/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/0c/10115e38/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Prototypes/Multigiocatore/Script/Client.cs" />
       <option value="$PROJECT_DIR$/Assets/Prototypes/Multigiocatore/Script/UIManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Prototypes/Multigiocatore/Script/UnityClient.cs" />
       <option value="$PROJECT_DIR$/Assets/Prototypes/Multigiocatore/ExternalScript/Client.cs" />
+      <option value="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/SingolGrid.cs" />
+      <option value="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/ScriptableGrid.cs" />
+      <option value="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/SimpleCubeScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/GridGenerator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lnNsArWW4aqgY4XXJwkCJaJvH1" />
@@ -48,6 +64,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -63,10 +81,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="8540">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="8540" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -83,6 +101,8 @@
       <updated>1608229103256</updated>
       <workItem from="1608229121708" duration="413000" />
       <workItem from="1608229903156" duration="3031000" />
+      <workItem from="1608244263946" duration="645000" />
+      <workItem from="1608244934691" duration="14208000" />
     </task>
     <servers />
   </component>
@@ -102,5 +122,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs</url>
+          <line>72</line>
+          <properties documentPath="D:\Fork Folder\BrokenPixels\BrokenPixels\Assets\Prototypes\Movimento sulla griglia\Scripts\PlayerMovement.cs" initialLine="72" containingFunctionPresentation="method 'FindNextPosition'">
+            <startOffsets>
+              <option value="2321" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2375" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs</url>
+          <line>47</line>
+          <properties documentPath="D:\Fork Folder\BrokenPixels\BrokenPixels\Assets\Prototypes\Movimento sulla griglia\Scripts\PlayerMovement.cs" initialLine="47" containingFunctionPresentation="method 'Move'">
+            <startOffsets>
+              <option value="1307" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1371" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs</url>
+          <line>51</line>
+          <properties documentPath="D:\Fork Folder\BrokenPixels\BrokenPixels\Assets\Prototypes\Movimento sulla griglia\Scripts\PlayerMovement.cs" initialLine="51" containingFunctionPresentation="method 'Move'">
+            <startOffsets>
+              <option value="1464" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1528" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
