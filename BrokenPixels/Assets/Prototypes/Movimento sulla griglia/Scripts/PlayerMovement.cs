@@ -40,55 +40,60 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
-        if (Input.anyKeyDown)
+        if (Input.anyKey)
         {
-            GameObject nextPosition = this.gameObject;
-            if (Input.GetKeyUp(KeyCode.W))
+            Debug.Log("Input");
+            GameObject nextPosition = null;
+            if (Input.GetKeyDown(KeyCode.W))
             {
                 nextPosition = FindNextPosition(currentAxisX, currentAxisZ + 1);
             }
-            else if (Input.GetKeyUp(KeyCode.S))
+            if (Input.GetKeyDown(KeyCode.S))
             {
                 nextPosition = FindNextPosition(currentAxisX, currentAxisZ - 1);
             }
-            else if (Input.GetKeyUp(KeyCode.D))
+            if (Input.GetKeyDown(KeyCode.D))
             {
                 nextPosition = FindNextPosition(currentAxisX + 1, currentAxisZ);
             }
-            else if (Input.GetKeyUp(KeyCode.A))
+            if (Input.GetKeyDown(KeyCode.A))
             {
                 nextPosition = FindNextPosition(currentAxisX - 1, currentAxisZ);
             }
+
+            if (nextPosition == null) return;
             
-            Debug.Log(nextPosition.gameObject.name);
             var position = nextPosition.transform.position;
             var endVector = new Vector3(position.x, position.y + offsetY, position.z);
             nextCellCoroutine = StartCoroutine(LerpToNextCell(transform.position, endVector, velocity));
-            Debug.Log("End : " + endVector);
         }
     }
 
     private GameObject FindNextPosition(int nextAxisX, int nextAxisZ)
     {
         var matrixCube = new MatrixCube(nextAxisX, nextAxisZ);
-        if (!gridGenerator.AllCubes.ContainsKey(matrixCube))
+        if (gridGenerator.AllCubes.ContainsKey(matrixCube))
+        {
+            Debug.Log(gridGenerator.AllCubes[matrixCube].ToString());
+            currentAxisX = nextAxisX;
+            currentAxisZ = nextAxisZ;
+        }
+        else
         {
             Debug.Log("Matrix : non esiste");
         }
-        return gridGenerator.AllCubes.ContainsKey(matrixCube) ? gridGenerator.AllCubes[matrixCube].gameObject : this.gameObject;
+        return gridGenerator.AllCubes.ContainsKey(matrixCube) ? gridGenerator.AllCubes[matrixCube].gameObject : null;
     }
 
     private IEnumerator LerpToNextCell(Vector3 start, Vector3 end, float vel, float alpha = 0)
     {
-        Debug.Log("Start Coroutine");
         while (alpha < 1)
         {
             alpha += vel;
-            Vector3.Lerp(start, end, alpha);
+            transform.position = Vector3.Lerp(start, end, alpha);
             yield return new WaitForEndOfFrame();
-            Debug.Log("Alpha : " + alpha);
         }
-        yield return new WaitForEndOfFrame();
         nextCellCoroutine = null;
+        Debug.Log("End Coroutine");
     }
 }

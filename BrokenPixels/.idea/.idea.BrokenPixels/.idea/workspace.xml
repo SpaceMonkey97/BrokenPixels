@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35aa90f5-85c1-4985-acee-5c9c4fe27d59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/SimpleCubeScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/SimpleCubeScript.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +78,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="8540">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="8540" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -103,6 +100,7 @@
       <workItem from="1608229903156" duration="3031000" />
       <workItem from="1608244263946" duration="645000" />
       <workItem from="1608244934691" duration="14208000" />
+      <workItem from="1608323874428" duration="1285000" />
     </task>
     <servers />
   </component>
@@ -122,50 +120,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs</url>
-          <line>72</line>
-          <properties documentPath="D:\Fork Folder\BrokenPixels\BrokenPixels\Assets\Prototypes\Movimento sulla griglia\Scripts\PlayerMovement.cs" initialLine="72" containingFunctionPresentation="method 'FindNextPosition'">
-            <startOffsets>
-              <option value="2321" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2375" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs</url>
-          <line>47</line>
-          <properties documentPath="D:\Fork Folder\BrokenPixels\BrokenPixels\Assets\Prototypes\Movimento sulla griglia\Scripts\PlayerMovement.cs" initialLine="47" containingFunctionPresentation="method 'Move'">
-            <startOffsets>
-              <option value="1307" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1371" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs</url>
-          <line>51</line>
-          <properties documentPath="D:\Fork Folder\BrokenPixels\BrokenPixels\Assets\Prototypes\Movimento sulla griglia\Scripts\PlayerMovement.cs" initialLine="51" containingFunctionPresentation="method 'Move'">
-            <startOffsets>
-              <option value="1464" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1528" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
