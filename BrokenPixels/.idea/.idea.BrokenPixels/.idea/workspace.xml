@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35aa90f5-85c1-4985-acee-5c9c4fe27d59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,8 @@
       <option value="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/SimpleCubeScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/GridGenerator.cs" />
       <option value="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Prototypes/Dungeon Procedurale/Scripts/RoomTemplates.cs" />
+      <option value="$PROJECT_DIR$/Assets/Prototypes/Dungeon Procedurale/Scripts/AddRoom.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lnNsArWW4aqgY4XXJwkCJaJvH1" />
@@ -101,6 +104,7 @@
       <workItem from="1608244263946" duration="645000" />
       <workItem from="1608244934691" duration="14208000" />
       <workItem from="1608323874428" duration="1285000" />
+      <workItem from="1608331950146" duration="4395000" />
     </task>
     <servers />
   </component>
