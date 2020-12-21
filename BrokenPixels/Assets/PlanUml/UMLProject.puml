@@ -1,0 +1,26 @@
+﻿@startuml
+hide empty members
+
+package Characters #DDDDDD
+{
+    abstract class Character
+    class Player
+    class Enemy
+    class Resource
+}
+
+package Interactable #DDDDDD
+{
+    class Item
+    class Gun
+    class Chest
+}
+
+package Managment #DDDDDD
+{
+    class UIManager
+    class GenerateDungeon
+    class SaveData
+    class InputManager
+}
+@enduml
