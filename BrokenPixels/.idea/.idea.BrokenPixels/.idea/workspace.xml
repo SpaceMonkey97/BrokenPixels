@@ -23,6 +23,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ToolTest.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ToolTest.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +59,8 @@
       <option value="$PROJECT_DIR$/Assets/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Prototypes/Dungeon Procedurale/Scripts/RoomTemplates.cs" />
       <option value="$PROJECT_DIR$/Assets/Prototypes/Dungeon Procedurale/Scripts/AddRoom.cs" />
+      <option value="$PROJECT_DIR$/Assets/Universal RP/Test URP/NewSurfaceShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/Universal RP/Test URP/Scripts/AgentMovement.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lnNsArWW4aqgY4XXJwkCJaJvH1" />
@@ -68,6 +74,7 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -105,6 +112,10 @@
       <workItem from="1608244934691" duration="14208000" />
       <workItem from="1608323874428" duration="1285000" />
       <workItem from="1608331950146" duration="4395000" />
+      <workItem from="1608655331480" duration="30000" />
+      <workItem from="1608655427936" duration="9000" />
+      <workItem from="1608740919135" duration="8793000" />
+      <workItem from="1608761052065" duration="1592000" />
     </task>
     <servers />
   </component>
