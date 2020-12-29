@@ -3,6 +3,7 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 
+[Obsolete]
 public class UnityClient : MonoBehaviour
 {
     public static UnityClient instance;

@@ -37,12 +37,24 @@
             </e>
           </e>
         </e>
-        <e p="Universal RP" t="Include">
-          <e p="Test URP" t="Include">
+        <e p="ToolTestFolder" t="Include">
+          <e p="Generator Dungeon" t="Include">
+            <e p="Gizmo Tool" t="Include">
+              <e p="DrawGizmoPlane.cs" t="Include" />
+            </e>
+            <e p="Room.cs" t="Include" />
+            <e p="Visual Dungeon Generator" t="Include">
+              <e p="ManagerGenerator.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Test URP-NavMesh" t="Include">
             <e p="Scripts" t="Include">
               <e p="AgentMovement.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Universal RP" t="Include">
+          <e p="Rederer.cs" t="Include" />
         </e>
       </e>
       <e p="BrokenPixels.sln" t="IncludeFlat" />

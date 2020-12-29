@@ -5,12 +5,13 @@ using UnityEngine.AI;
 public class AgentMovement : MonoBehaviour
 {
     private NavMeshAgent navMeshAgent;
-    [SerializeField] private Camera camera;
+    private Camera currentCamera;
     
     // Start is called before the first frame update
     private void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
+        currentCamera = Camera.current;
     }
 
     // Update is called once per frame
@@ -25,7 +26,7 @@ public class AgentMovement : MonoBehaviour
     private void SetDirectionByMouse()
     {
         var mouse = Input.mousePosition;
-        var ray = camera.ScreenPointToRay(mouse, Camera.MonoOrStereoscopicEye.Mono);
+        var ray = currentCamera.ScreenPointToRay(mouse, Camera.MonoOrStereoscopicEye.Mono);
         if (Physics.Raycast(ray.origin, ray.direction, out var hit, Mathf.Infinity))
         {
             navMeshAgent.SetDestination(hit.point);
@@ -34,13 +35,13 @@ public class AgentMovement : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        var ray = camera.ScreenPointToRay(Input.mousePosition);
+        var ray = currentCamera.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray.origin, ray.direction, out var hit, Mathf.Infinity))
         {
             Gizmos.color = Color.cyan;
             Gizmos.DrawSphere(hit.point, .5f);
             Gizmos.color = Color.green;
-            Gizmos.DrawLine(camera.transform.position, hit.point);
+            Gizmos.DrawLine(currentCamera.transform.position, hit.point);
         }
     }
 }

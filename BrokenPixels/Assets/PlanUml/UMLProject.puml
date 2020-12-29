@@ -3,10 +3,17 @@ hide empty members
 
 package Characters #DDDDDD
 {
-    abstract class Character
-    class Player
-    class Enemy
+    abstract class Character {
+        +HealtPoint : int
+        +onDie : Action<void>
+    }
+    
+    class Player <<(M, yellow)>>
+    class Enemy <<(M, yellow)>>
     class Resource
+    
+    Character <|-- Player
+    Character <|-- Enemy
 }
 
 package Interactable #DDDDDD
@@ -14,6 +21,27 @@ package Interactable #DDDDDD
     class Item
     class Gun
     class Chest
+}
+
+package Rooms #DDDDDD
+{
+    abstract class Room <<ScriptableObject>>{
+        +width : int
+        +length : int
+        +material : Material
+    }
+    
+    class StartRoom <<(S, violet) ScriptableObject>>
+    class StandardRoom <<(S, violet) ScriptableObject>>
+    class TreasureRoom <<(S, violet) ScriptableObject>>
+    class ShopRoom <<(S, violet) ScriptableObject>>
+    class BossRoom <<(S, violet) ScriptableObject>>
+    
+    Room <|-- StartRoom
+    Room <|-- StandardRoom
+    Room <|-- TreasureRoom
+    Room <|-- ShopRoom
+    Room <|-- BossRoom
 }
 
 package Managment #DDDDDD

@@ -21,12 +21,56 @@
   <component name="ChangeListManager">
     <list default="true" id="35aa90f5-85c1-4985-acee-5c9c4fe27d59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrokenPixels/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ToolTest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ToolTest.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlanUml/UMLProject.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanUml/UMLProject.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Movimento sulla griglia/Scripts/GridGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Movimento sulla griglia/Scripts/GridGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Movimento sulla griglia/Scripts/SimpleCubeScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Movimento sulla griglia/Scripts/SimpleCubeScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Multigiocatore/Script/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Multigiocatore/Script/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Multigiocatore/Script/UnityClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Multigiocatore/Script/UnityClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Materials/Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Materials/Black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Materials/Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Materials/Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Materials/Pink.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Materials/Pink.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Materials/Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Materials/Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Materials/Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Materials/Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Scripts/AgentMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/Scripts/AgentMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTest/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTest/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestLigths.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNav/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNav/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/Lightmap-1_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/Lightmap-1_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/Lightmap-1_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/Lightmap-2_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/Lightmap-2_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/Lightmap-2_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/Lightmap-2_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal RP/Test URP/ToolTestNavMesh/ReflectionProbe-0.exr.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +79,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/a8/a69d2f95/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
@@ -45,6 +97,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/11/adc2a8b7/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/9f/f116b04e/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/0c/10115e38/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/f7/6db80918/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/01/68c89ff5/Color.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -61,6 +115,16 @@
       <option value="$PROJECT_DIR$/Assets/Prototypes/Dungeon Procedurale/Scripts/AddRoom.cs" />
       <option value="$PROJECT_DIR$/Assets/Universal RP/Test URP/NewSurfaceShader.shader" />
       <option value="$PROJECT_DIR$/Assets/Universal RP/Test URP/Scripts/AgentMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/ToolTestFolder/Test URP-NavMesh/Scripts/AgentMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Movimento sulla griglia/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Movimento sulla griglia/Scripts/SimpleCubeScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Movimento sulla griglia/Scripts/GridGenerator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Multigiocatore/Script/UIManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Pre-Production/Prototypes/Multigiocatore/Script/UnityClient.cs" />
+      <option value="$PROJECT_DIR$/Assets/ToolTestFolder/Generator Dungeon/DrawGizmo.cs" />
+      <option value="$PROJECT_DIR$/Assets/ToolTestFolder/Generator Dungeon/DrawGizmoPlane.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlanUml/UMLProject.puml" />
+      <option value="$PROJECT_DIR$/Assets/ToolTestFolder/Generator Dungeon/Room.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lnNsArWW4aqgY4XXJwkCJaJvH1" />
@@ -76,7 +140,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -116,6 +180,10 @@
       <workItem from="1608655427936" duration="9000" />
       <workItem from="1608740919135" duration="8793000" />
       <workItem from="1608761052065" duration="1592000" />
+      <workItem from="1609252712365" duration="288000" />
+      <workItem from="1609258702222" duration="3325000" />
+      <workItem from="1609266696800" duration="8129000" />
+      <workItem from="1609281360418" duration="2198000" />
     </task>
     <servers />
   </component>
@@ -135,5 +203,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

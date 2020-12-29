@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[Obsolete]
 public class GridGenerator : MonoBehaviour
 {
     [Header("Inizializzazione Griglia")]

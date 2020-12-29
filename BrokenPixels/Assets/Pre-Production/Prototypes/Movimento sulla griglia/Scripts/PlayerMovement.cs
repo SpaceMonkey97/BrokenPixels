@@ -3,9 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Obsolete]
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private GridGenerator gridGenerator;
+    [SerializeField] private GridGenerator gridGenerator = null;
     [Header("Assi")]
     [SerializeField] private int currentAxisX;
     [SerializeField] private int currentAxisZ;
